@@ -6,9 +6,11 @@ body h1{
     font-size: 70px;
     margin: 0px;
     line-height: 100px;
+    font-weight: 200;
 }
 body h3{
   font-size: 45px;
+  font-weight: 200;
 }
 body p{
     font-size:20px;
@@ -18,6 +20,7 @@ body p{
 body h5{
   font-size: 30px;
   margin: 0px;
+  font-weight: 200;
 }
 
 
@@ -45,8 +48,8 @@ body h5{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 300;
 }
 .nav_text a.active{
     color: #036BBA;
@@ -84,14 +87,17 @@ body h5{
 }
 
 /* hero section style */
+
 .heroFirst h1{
-  padding: 30px 0px;
+  padding: 20px 0px;
 }
 .heroFirst .atf_btn{
   padding: 40px 0px;
 }
 
-
+.heroPara{
+  width: 90%;
+}
 
 /* atf_buttons animation */
 /* https://uiverse.io/gharsh11032000/curvy-walrus-42 */
@@ -196,7 +202,9 @@ body h5{
 
 .Heromainsec{
   display: flex;
-padding: 50px;
+  
+  padding: 50px;
+  margin: 0px 50px;
   
 }
 
@@ -206,6 +214,7 @@ padding: 50px;
 }
 .homeMainsection{
   padding: 0px 0px 0px 5px;
+  margin-left: -60px;
   
 }
 .dentalImg p{
@@ -221,7 +230,7 @@ padding: 50px;
 
 /* About section styling */
 .aboutMain{
-  padding: 20px 50px 70px 50px;
+  padding: 20px 100px 70px 100px;
   background-color: #cccccc4d;
 }
 
@@ -232,6 +241,13 @@ padding: 50px;
   text-align: center;
   padding-bottom: 30px;
   padding-top: 0;
+  
+}
+.aboutMPara{
+  padding: 0px 50px;
+}
+.aboutText h3{
+  width: 600px;
 }
 
 /*About section card styling */
@@ -245,12 +261,13 @@ padding: 50px;
 }
 .boxesMain p{
   padding: 20px 0px;
+
 }
 
 .cardDI1{
   background-color: #d0e01f69;
   text-align: center;
-  padding: 50px 10px;
+  padding: 60px 10px;
   border-radius: 30px;
   margin: 0px 10px;
 }
@@ -258,14 +275,14 @@ padding: 50px;
 .cardDI2{
   background-color: #ef96a859;
   text-align: center;
-  padding: 50px 10px;
+  padding: 60px 10px;
   border-radius: 30px;
   margin: 0px 10px;
 }
 .cardDI3{
   background-color: #016bbc4f;
   text-align: center;
-  padding: 50px 10px;
+  padding: 60px 10px;
   border-radius: 30px;
   margin: 0px 10px;
 }
@@ -273,7 +290,7 @@ padding: 50px;
   position: absolute;
   z-index: 1;
   margin-top: -25px;
-  margin-left: 220px;
+  margin-left: 200px;
   width: 60px;
   height: 60px;
 }
@@ -282,12 +299,13 @@ padding: 50px;
 
 .whyChoosusmain{
   display: flex;
+  width: auto;
   padding: 50px;
-  
+  margin: 0px 60px;
  
 }
 .whyChooseCont{
-  margin-top: -30px ;
+  margin-top: -40px ;
 }
 .whyChooseimg img{
   width: 650px
@@ -315,6 +333,8 @@ padding: 50px;
   display: flex;
   padding: 50px;
   background-color: #cccccc56;
+  padding: 50px 100px 50px 100px;
+  
 }
 .ourservcontent h3{
  margin-bottom: -5px;
@@ -337,7 +357,9 @@ padding: 50px;
 /* our service card section */
 .ourServcards{
   display: flex;
- 
+}
+.ourServcards img{
+  width: 65px;
 }
 .cardServices1{
   background-color: #016bbc44;
@@ -372,18 +394,20 @@ padding: 50px;
 /* Team section styling */
 
 .teamMain{
-  padding: 20px 50px;
+  padding: 0px 50px 50px 50px;
+  margin: 0px 50px;
 }
 .teamContent{
   display: flex;
   align-items: center;
 }
 .teamtitle{
-  
+  text-align: center;
   width: 100%;
 }
 .teamPara p{
    padding: 0px 60px;
+   text-align: center;
 }
 
 /* team cards styling */
@@ -422,7 +446,7 @@ padding: 50px;
   display: flex;
 }
 .teamCard1 img{
-  width: 300px;
+  width: 260px;
 }
 .teamIcon{
   margin: 180px 20px;
@@ -432,7 +456,7 @@ padding: 50px;
 .footerMain{
   display: flex;
   background-color: #000000;
-  padding: 50px 50px 0px 50px;
+  padding: 50px 100px 0px 100px;
   justify-content: space-between;
 }
 .footerMain h5{
